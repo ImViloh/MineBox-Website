@@ -1,0 +1,97 @@
+body{
+    background-color: #16171b;
+    font-family: 'Monsterrat', sans-serif;
+    color: white;
+    text-align: center;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    overflow: hidden;
+}
+
+
+
+.card {
+    background-color: #202229;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    background-position: inherit;
+    background-size: 50vw;
+    min-width: 600px;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+
+.card:hover {
+    background-color: #202229;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    background-position: inherit;
+    background-size: 50vw;
+    min-width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.514) 15px 15px 10px;
+    translate: -5px -5px;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s;
+}
+
+
+
+  
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
+
+.chr {
+    height: 2px;
+    background-image: linear-gradient(-45deg, transparent, #8126c6, #b326c6, #e921fb, #fb218e, transparent);
+    background-size: 200%;
+    animation: gradient 20s ease infinite;
+    max-width: 500px;
+    border-radius: 150px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+i.fa-heart{
+    background: linear-gradient(-45deg, #8126c6, #b326c6, #e921fb, #fb218e);
+    background-size: 200px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 2s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
